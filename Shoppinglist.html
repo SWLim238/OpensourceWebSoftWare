@@ -8,7 +8,7 @@
 	
 	/* 헤더 부분과 겹쳐 나오게 않도록 바디부분을 띄우고 시작*/
 	body{
-		padding-top: 250px;
+		padding-top: 200px;
 	}
 	
 	/* 헤더부분이 배경이미지, 텍스트 사이즈 설정*/
@@ -39,6 +39,17 @@
 	a:visited{
   		color : black;	
   	}
+  	
+  	nav{
+	text-align: center;
+	margin-bottom: 50px;
+	}
+	
+	nav ul li {
+		display:inline;
+		font:bold 24px Dotum;
+		padding:0 10px;
+	}
 
 	/* 양옆에 마진값 줘서 가운데서 보이도록설정 */
 	article{
@@ -46,18 +57,12 @@
 		margin-right: 100px;
 	}
 	
-	#box1{
+	#box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10{
 		float: left;
+		width: calc(100%/5 - 20px);
+		margin:0 10px;
+		height: 300px;
 		background: green;
-		width: 20%;
-		height: 180px;
-	}
-	
-	#box2{
-		float: right;
-		background: whitesmoke;
-		width: 80%;
-		height: 180px;
 	}
 		
 	footer{
@@ -74,24 +79,68 @@
 <body bgcolor = "#fdfbfb">	<!-- body의 배경색 지정 -->
 	<header>
 		<a href="Main.html"><h1>WELCOM SHOPPING</h1></a>	<!-- 해당문고 클릭시 메인페이지로 이동-->
-		<p>There are a variety of clothes for you</p>	
+		<p>Your Shopping List</p>	
 	</header>
+	
+	<nav>
+		<ul>
+			<li><a href="Main.html">&nbsp;HOME&nbsp;</a></li>
+			<li><a href="Main.html">&nbsp;SIGN IN&nbsp;</a></li>
+			<li><a href="Main.html">&nbsp;MYPAGE&nbsp;</a></li>
+			<li><a href="Shoppinglist.html">&nbsp;SHOPPING LIST&nbsp;</a></li>
+		</ul>
+	</nav>
 	
 	<!-- 상품이미지 들어갈 구역 -->
 	<article>
-		<section id = "box1">
+	<section id = "box1">
+			<h1>여기에 내용작성</h1>
+	</section>
+	
+	<section id = "box2">
 			<h1>여기에 내용작성</h1>
 		</section>
-	
-	<!-- 상품설명 들어갈 구역 -->
-		<section id = "box2">
+		
+	<section id = "box3">
 			<h1>여기에 내용작성</h1>
-		</section>
-	</article>
+	</section>
 	
-	<section id="blank">
+	<section id = "box4">
+			<h1>여기에 내용작성</h1>
+	</section>
+		
+	<section id = "box5">
+			<h1>여기에 내용작성</h1>
+	</section>
+	
+		<section id="blank">
 		<h1>이 공간은 공백입니다</h1>
 	</section>
+	
+	<section id = "box6">
+			<h1>여기에 내용작성</h1>
+	</section>
+	
+	<section id = "box7">
+			<h1>여기에 내용작성</h1>
+		</section>
+		
+	<section id = "box8">
+			<h1>여기에 내용작성</h1>
+	</section>
+	
+	<section id = "box9">
+			<h1>여기에 내용작성</h1>
+	</section>
+		
+	<section id = "box10">
+			<h1>여기에 내용작성</h1>
+	</section>
+	
+		<section id="blank">
+		<h1>이 공간은 공백입니다</h1>
+	</section>
+	</article>
 	
 	<hr>
 	
